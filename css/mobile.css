@@ -1,0 +1,12 @@
+body{
+    background: green;
+    content: 'Mobile'
+}
+.mobile{
+    display: block !important;
+}
+@media screen and (orientation: landscape) {
+     body{
+         background: blue
+     }
+}

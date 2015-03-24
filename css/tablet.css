@@ -1,0 +1,12 @@
+body{
+    background: orange;
+}
+.tablet{
+    display: block !important;
+}
+
+@media screen and (orientation: landscape) {
+     body{
+         background: yellow
+     }
+}
